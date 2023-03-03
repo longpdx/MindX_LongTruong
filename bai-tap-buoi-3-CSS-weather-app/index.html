@@ -1,12 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Dự Báo Thời Tiết</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  
+  <div class="container-box">
+    <img class="weather-image" src="./images/cloud.png" alt="cloudy day">
+
+    <div class="temp-box">
+      <p class="temp-number">24</p>
+
+      <div class="temp-celcius">
+        <span>&#8451</span>
+      </div>
+      <p class="location-name">Nha Trang, Khánh Hòa</p>
+      <p class="location-status">Trời nhiều mây, nắng đẹp</p>
+    </div>
+    <hr style="width:100%;text-align:left;margin-left:0">
+
+    <div class="weather-stat">
+
+      <div class="moist-stat">
+        <img width="35%" src="./images/wet-static.png" alt="moisture">
+        <p class="text-edit">Độ Ẩm</p>
+        <p class="text-edit">60%</p>
+      </div>
+
+      <div class="wind-stat">
+        <img width="35%" src="./images/wind-static.png" alt="wind">
+        <p class="text-edit">Gió</p>
+        <p class="text-edit">10 km/h</p>
+      </div>
+
+      <div class="heat-stat">
+        <img width="35%" src="./images/thermometer-static.png" alt="wind">
+        <p class="text-edit">Nền Nhiệt</p>
+        <p class="text-edit">40&#8451</p>
+      </div>
+
+      <hr style="width:100%;text-align:left;margin-left:0">
+    </div>
+    <p class="date-text">
+      Chủ Nhật &#8212; 5/3/2023 &#x25BC;
+    </p>
+
+    <div class="weather-time">
+
+      <div class="windy-stat">
+        <img width="35%" src="./images/windy1.gif" alt="cloud">
+        <p class="text-edit2">12pm</p>
+        <p class="text-edit3">Gió mạnh</p>
+      </div>
+
+      <div class="cloud-stat">
+        <img width="35%" src="./images/cloud2.gif" alt="rain">
+        <p class="text-edit2">1pm</p>
+        <p class="text-edit3">Mưa Sấm Sét</p>
+      </div>
+
+      <div class="rain-stat">
+        <img width="35%" src="./images/rainfall3.gif" alt="sun">
+        <p class="text-edit2">2pm</p>
+        <p class="text-edit3">Mưa To</p>
+      </div>
+
+      <div class="sun-stat">
+        <img width="35%" src="./images/sun4.gif" alt="sun">
+        <p class="text-edit2">3pm</p>
+        <p class="text-edit3">Nắng</p>
+      </div>
+      <hr style="width:100%;text-align:left;margin-left:0">
+    </div>
+
+    <div class="button-control">
+      <button class="home-button">&#127969; HOME</button>
+      <button class="share-button">&#128077; SHARE</button>
+    </div>
+    
+  </div>
 </body>
+
 </html>
