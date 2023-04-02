@@ -32,6 +32,7 @@
     width: 100%;
     transition-duration: 0.3s;
     padding-top: 1rem;
+    z-index: 800;
   }
 
   .nav-menu.active {
@@ -74,6 +75,7 @@
 
   section {
     background: none;
+    z-index: 1;
   }
 }
 /* Media Queries End*/
