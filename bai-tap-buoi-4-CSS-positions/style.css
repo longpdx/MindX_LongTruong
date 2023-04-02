@@ -1,0 +1,128 @@
+.container-box{
+  /* display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center; */
+}
+.container1 {
+  float: left;
+  max-width: 35%;
+  min-height: 400px;
+  background-color: rgb(218,232,252);
+  border-style: solid;
+  border-color: rgb(142, 168, 206);
+  margin-right: 10px;
+  margin-left: 50px;
+}
+
+.tieude1 {
+  position: relative;
+  text-align: center;
+  margin: 20px 20px 10px 20px;
+  max-height: 20%;
+  background-color: rgb(255,230,204);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(216, 176, 71);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.text1 {
+  text-align: left;
+  position: relative;
+  margin: 20px 20px 10px 20px;
+  max-height: 40%;
+  background-color: rgb(248,206,204);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(194, 126, 124);
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.text2 {
+  text-align: left;
+  position: relative;
+  margin: 20px 20px 10px 20px;
+  max-height: 40%;
+  background-color: rgb(248,206,204);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(194, 126, 124);
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.button1 {
+  margin: 10px 20px 10px 20px;
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: rgb(27, 161, 226);
+  color: white;
+  border-color: rgb(12.133,198);
+}
+
+.container2 {
+  float: right;
+  vertical-align: top;
+  margin: 20px 50px 20px 10px;
+  max-width: 35%;
+  min-height: 350px;
+  background-color: rgb(218,232,252);
+  border-style: solid;
+  border-color: rgb(142, 168, 206);
+}
+
+.column1 {
+  display: inline-block;
+  margin: 0px 10px 0px 20px;
+  width: 30%;
+  height: 100%;
+}
+.column2 {
+  display: inline-block;
+  margin: 0px 10px 0px 20px;
+  width: 30%;
+  height: 100%;
+}
+.column3 {
+  display: inline-block;
+  width: 30%;
+  height: 100%;
+}
+.m1 {
+
+  background-color: rgb(96,196,23);
+}
+.m6 {
+ 
+  background-color: rgb(0,80,239);
+}
+.m2 {
+
+  background-color: rgb(0,136,0);
+}
+.m3 {
+
+  background-color: rgb(27,161,226);
+}
+.m4 {
+
+  background-color: rgb(162,0,37);
+}
+.m5 {
+
+  background-color: rgb(216,0,115);
+}
+.muctieu {
+
+  background-color: rgb(255,230,204);
+}
