@@ -71,5 +71,9 @@
   .footer .left-menu, .right-menu {
     flex-direction: column;
   }
+
+  section {
+    background: none;
+  }
 }
 /* Media Queries End*/
